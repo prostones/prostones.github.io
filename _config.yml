@@ -90,4 +90,4 @@ theme: next
 deploy:
   type: git
   repository: https://github.com/prostones/prostones.github.io.git
-  branch: main
+  branch: master

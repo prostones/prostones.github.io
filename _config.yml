@@ -89,5 +89,5 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://gitee.com/prostones/my-blog.git
+  repository: https://gitee.com/prostones/prostones.gitee.io.git
   branch: master

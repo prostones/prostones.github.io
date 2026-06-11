@@ -1,0 +1,118 @@
+# ===============================================================
+# NexT Theme Configuration (Alternate Theme Config)
+# See: https://theme-next.js.org/docs/getting-started/configuration
+# ===============================================================
+
+# Schemes
+scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+# Menu
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: false
+
+# Sidebar
+sidebar:
+  position: left
+  display: post
+  offset: 12
+
+# Avatar
+avatar:
+  url: #/images/avatar.png
+  rounded: true
+  rotated: false
+
+# Social Links
+social:
+  GitHub: https://github.com/prostones || fab fa-github
+  Gitee: https://gitee.com/prostones || fab fa-gitee
+  E-Mail: mailto:prostones@example.com || fa fa-envelope
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+
+# Footer
+footer:
+  since: 2024
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  powered: true
+
+# Post meta
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# Post wordcount (requires hexo-wordcount)
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+
+# Read more button
+read_more_btn: true
+
+# Table of Contents
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 6
+
+# Local Search (requires hexo-generator-searchdb)
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# Creative Commons
+creative_commons:
+  license: by-nc-sa
+  size: small
+  sidebar: true
+  post: true
+
+# Back to top
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+# Code block
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  copy_button:
+    enable: true
+    style: flat
+  language: true
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  start_at: left
+  position: top
+  reversed: false
+  color: "#37c6c0"
+  height: 3px
